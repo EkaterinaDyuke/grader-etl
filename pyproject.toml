@@ -1,0 +1,10 @@
+[project]
+name = "2026-11-grader-etl"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "gspread>=6.2.1",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]

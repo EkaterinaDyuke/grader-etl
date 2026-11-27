@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Секреты: в репозиторий попадает только .env.example
+.env
+.env.*
+!.env.example
+
+# Ключ сервисного аккаунта Google
+secrets/
+
+# Логи и временное
+logs/
+*.log
+scratch/
+
+# Данные: сырьё и производные не кладём, README и .gitkeep оставляем
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+
+# Тяжёлые форматы
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.sqlite
+*.db
+*.zip
+*.gz
+
+# ...кроме маленьких примеров для репозитория
+!data/samples/**
+
+# Редакторы и система
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
