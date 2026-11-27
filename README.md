@@ -70,7 +70,7 @@ API ──> api_client.py ──> transform.py ──> loader.py ──> Postgre
 Нужны Python 3.14, `uv` и PostgreSQL 17.
 
 ```
-git clone <адрес репозитория>
+git clone <https://github.com/EkaterinaDyuke/grader-etl.git>
 cd grader-etl
 uv sync
 ```
